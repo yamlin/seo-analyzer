@@ -10,8 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "htmlparser2": "^3.10.0",
-    "lodash": "^4.17.11",
-    "sprintf-js": "^1.1.1"
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "mocha": "^5.2.0"

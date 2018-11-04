@@ -1,0 +1,56 @@
+{
+  "rules": [
+    {
+      "type": "requires",
+      "data": {
+        "tag": "img",
+        "attribute": "alt"
+      }
+    },
+    {
+      "type": "requires",
+      "data": {
+        "tag": "a",
+        "attribute": "rel"
+      }
+    },
+    {
+      "type": "has-tag",
+      "data": {
+        "tag": "title"
+      }
+    },
+    {
+      "type": "has-attribute",
+      "data": {
+        "tag": "meta",
+        "attribute": {
+          "name": "keywords"
+        }
+      }
+    },
+    {
+      "type": "has-attribute",
+      "data": {
+        "tag": "meta",
+        "attribute": {
+          "name": "descriptions"
+        }
+      }
+    },
+    {
+      "type": "at-most",
+      "data": {
+        "tag": "h1",
+        "size": 1
+      }
+    },
+    {
+      "type": "at-most",
+      "data": {
+        "tag": "strong",
+        "size": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Tag 'img' misses attribute 'alt'.
+Tag 'title' is missed.
+Tag 'meta' misses attributes (name => keywords).
+Tag 'meta' misses attributes (name => descriptions).
+The number of 'strong' is more than 2.
